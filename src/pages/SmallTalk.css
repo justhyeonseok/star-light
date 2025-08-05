@@ -1,0 +1,129 @@
+.smallTalk-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1rem 1rem 7rem;
+    background-color: white;
+
+}
+
+.smallTalk-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.smallTalk-item {
+    display: flex;
+    padding: 1rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.left-number {
+    width: 30px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+
+.smallTalk-content {
+    flex: 1;
+}
+
+.smallTalk-name {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.smallTalk-text {
+    margin-bottom: 0.5rem;
+    white-space: pre-wrap;
+}
+
+.smallTalk-meta {
+    font-size: 0.8rem;
+    color: #555;
+}
+
+.write-button {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.5rem 1rem;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.write-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 5rem;
+}
+
+.write-form input,
+.write-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+    resize: vertical; /* 필요시 세로로만 크기 조절 가능 */
+    max-width: 100%;
+}
+
+.write-form button {
+    padding: 0.5rem;
+    background: black;
+    color: white;
+    border: none;
+}
+
+.button-row {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.button-row button {
+    flex: 1; /* 버튼이 동일한 크기로 나뉘도록 */
+    padding: 0.75rem;
+    font-size: 1rem;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-row button:last-child {
+    background: #888; /* 취소 버튼은 회색 */
+}
+.error-text {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: -0.3rem;
+    margin-bottom: 0.4rem;
+}
+.bottom-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: #ffefef;
+    color: #a00;
+    font-size: 0.85rem;
+    text-align: center;
+    border-top: 1px solid #e0c0c0;
+    z-index: 1000;
+    box-sizing: border-box;
+    line-height: 1.4;
+    word-break: keep-all;  /* 줄바꿈 자연스럽게 */
+    white-space: normal;   /* 텍스트 감싸기 허용 */
+}
+

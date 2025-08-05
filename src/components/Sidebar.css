@@ -1,0 +1,53 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -20vw; /* 초기에는 숨김 */
+    width: 20vw;
+    max-width: 300px;
+    height: 100vh;
+    background-color: white;
+    color: #000;
+    transition: left 0.3s ease;
+    z-index: 1000;
+    padding: 1rem 0.8rem;
+    box-sizing: border-box;
+    font-size: 0.85rem;
+}
+
+
+
+.sidebar nav ul {
+    list-style: none; /* 점 없애기 */
+    padding-left: 0;
+    margin: 0;
+}
+
+.sidebar nav ul li {
+    padding: 10px 8px; /* 위아래 간격 */
+    margin-left: 0; /* 왼쪽 붙이기 */
+}
+
+.sidebar nav ul li a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+.sidebar nav ul li a:hover {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+.sidebar.open {
+    left: 0;
+}
+
+/* 모바일 대응 */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 60vw;
+        left: -60vw;
+        font-size: 1rem;
+        max-width: none;
+    }
+}

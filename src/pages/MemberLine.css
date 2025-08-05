@@ -1,0 +1,82 @@
+.memberLine {
+    background-image: url('../assets/stellarImage.png');
+    background-size: cover;
+    max-width: 500px;
+    max-height: 800px;
+    margin: 0 auto;
+}
+.line-1 {
+    color: white;
+    transform: scale(0.8); /* 0.8 = 80% 크기로 줄이기 */
+    transform-origin: center; /* 축소 기준점을 왼쪽 상단으로 고정 */
+}
+
+
+.box-top-main {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 20px;
+    gap: 10px;
+
+}
+
+
+.box-top {
+    padding: 16px;
+    margin: 0 20px;
+    display: flex;
+    color: white;
+}
+
+.member-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 15px;
+    flex-wrap: wrap;
+}
+.member-container2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 55px;
+    flex-wrap: wrap;
+}
+
+/* 공통 박스 스타일 */
+.box {
+    flex: 1;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    /*margin: 0 10px;*/
+}
+
+.box img {
+    width: 80px;           /* 원하는 고정 너비 */
+    aspect-ratio: 3 / 4;    /* 너비 : 높이 비율 고정 (예: 3:4 비율) */
+    object-fit: cover;      /* 이미지가 비율에 맞게 꽉 채움 (자르기도 함) */
+    outline: 1px solid black;
+    border-radius: 4px;
+}
+
+.Member-nameLine {
+    font-size: 14px;
+    color: white;
+}
+
+/* 두 그룹 사이에 공간 만들기 */
+.group1:last-child {
+    /*margin-right: 20px;*/
+}
+
+.group2:first-child {
+    /*margin-left: 20px;*/
+}
+
+/*@media (max-width: 600px) {*/
+/*    .line-1 {*/
+/*        transform: scale(0.9);*/
+/*    }*/
+/*}*/

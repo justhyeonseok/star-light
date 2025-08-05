@@ -1,0 +1,10 @@
+.home-container {
+    color: white;
+    background-image: url('../assets/backgroundImage.png');
+    min-height: 65vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: content-box; /* ✅ 핵심 */
+    padding: 2rem; /* 원하는 만큼 여백 */
+}
