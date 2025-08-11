@@ -151,13 +151,14 @@ export default function playList() {
                         </div>
                     </div>
                     <div className="playlist-item">
-                        <h3>6. Re: Re:</h3>
+                        <h3>6. 베텔기우스</h3>
                         <div className="playlist-roles">
-                            <div className="playlist-role">V. 한현준</div>
-                            <div className="playlist-role">B. 이정연</div>
+                            <div className="playlist-role">V. 구민성</div>
                             <div className="playlist-role">G. 신민호</div>
+                            <div className="playlist-role">P. 정선영</div>
+                            <div className="playlist-role">B. 이정연</div>
+                            <div className="playlist-role">G. 최승훈</div>
                             <div className="playlist-role">D. 김대원</div>
-                            <div className="playlist-role">G. 김준서</div>
                         </div>
                     </div>
                 </div>
@@ -201,14 +202,13 @@ export default function playList() {
                         </div>
                     </div>
                     <div className="playlist-item">
-                        <h3>8. 베텔기우스</h3>
+                        <h3>8. Re: Re:</h3>
                         <div className="playlist-roles">
-                            <div className="playlist-role">V. 구민성</div>
-                            <div className="playlist-role">G. 신민호</div>
-                            <div className="playlist-role">P. 정선영</div>
+                            <div className="playlist-role">V. 한현준</div>
                             <div className="playlist-role">B. 이정연</div>
-                            <div className="playlist-role">G. 최승훈</div>
+                            <div className="playlist-role">G. 신민호</div>
                             <div className="playlist-role">D. 김대원</div>
+                            <div className="playlist-role">G. 김준서</div>
                         </div>
                     </div>
                 </div>
