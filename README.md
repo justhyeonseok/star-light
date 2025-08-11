@@ -23,21 +23,16 @@ React + Vite + TypeScript로 제작된 정적 웹사이트
 4. 간단한 채팅 기능 구현
 
 ## 🌠 미리보기
-| 메인 페이지 | 공연 소개 |
-|-------------|-----------|
-| ![Main](/src/assets/readmeImage1.png) | ![Intro](/src/assets/readmeImage3.png) |
-
-| 출연진 소개 | 예매 안내 |
-|-------------|-----------|
-| ![Members](/src/assets/readmeImage2.png) | ![Ticket](/src/assets/readmeImage4.png) |
-
+| 메인 페이지 | 공연 정보 | 멤버 소개 | 플레이리스트 |
+|-------------|-------------|-------------|-------------|
+| <img src="./src/assets/backgroundImage.png" width="250" height="450"/> | <img src="./src/assets/readmeImage2.png" width="250" height="450"/> | <img src="./src/assets/readmeImage3.png" width="250" height="450"/> | <img src="./src/assets/readmeImage4.png" width="250" height="450"/> |
 
 ---
 
 ### 8. 배포 링크
 
 ## 🌐 배포 링크
-- [별빛 서곡 바로가기]([https://](https://stellar0828.firebaseapp.com/))  
+- [별빛 서곡 바로가기](https://stellar0828.firebaseapp.com/)  
 
 ## 👨‍💻 개발인원
 - **박현석** – Developer
