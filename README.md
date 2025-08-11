@@ -25,11 +25,11 @@ React + Vite + TypeScript로 제작된 정적 웹사이트
 ## 🌠 미리보기
 | 메인 페이지 | 공연 소개 |
 |-------------|-----------|
-| ![Main](./src/assets/) | ![Intro](./images/intro.png) |
+| ![Main](./src/assets/readmeImage1.png) | ![Intro](./src/assets/readmeImage3.png) |
 
 | 출연진 소개 | 예매 안내 |
 |-------------|-----------|
-| ![Members](./images/members.png) | ![Ticket](./images/ticket.png) |
+| ![Members](./src/assets/readmeImage2.png) | ![Ticket](./src/assets/readmeImage4.png) |
 
 
 ---
